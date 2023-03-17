@@ -7,46 +7,140 @@
     <title>site templet</title>
 
    <link rel="stylesheet" href="template.css">
+   <link rel="stylesheet" href="session8/navigation.css">
     
+<style>
+    /* .card img{
+        height: 111px;
+        width: 200px;
+    }
+    .read{
+    display: block;
+    margin-bottom: 10px;
+
+   text-align: center;
+   color: #fff;
+   background-color:green;
+   text-decoration: solid;
+   padding: 2.5px;
+   border-radius: 8px;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+    #banner{
+        background-image: url(https://plus.unsplash.com/premium_photo-1661761031332-26de7264c430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        background-position: center;
+        background-size: cover;
+         }
+    #a1
+    {
+        background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+
+        background-size: cover;
+        }    
+   #a2
+   {
+    background-image: url(../p2.png);
+    background-size: cover;
+   }
+   #a3
+   {
+    background-image: url(../p1.jpg);
+   }
+   #left
+   {
+    
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 34px;
+    box-sizing: border-box;
+    color:red;
+    
+   }
+
+   .first
+   {   
+    margin: 0px 20px;
+   color: #fff;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   text-justify: kashida;
+   text-transform: uppercase;
+} 
+
+    */
+ 
+         
+
+</style>
+
+
 </head>
 <body>
 
     <div id="container">
 
-        <header><h1>header</h1>
+        <header>
+            <ul>
+               <li>  <a href="#">Home</a></li>
+               <li>  <a href="#section-2">About</a></li>
+               <li>  <a href="#section-1">Team</a></li>
+               <li>  <a href="#section-3">Technologias</a></li>
+               <li>  <a href="#section-3">Contact us</a></li>
 
-        </header>
+            </ul>
 
+           </header>
         <section id="banner">
-            <h1>Banner</h1>
+            <h1 class="first">My Web Page</h1>
         </section>
-              <h1 class="white-h1">section1</h1>
+              <h2 class="white-h1">team member</h2>
         <section id="section-1">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+            <div class="circle" id="circle1"></div>
+            <div class="circle" id="circle2"></div>
+            <div class="circle" id="circle3"></div>
+            <div class="circle" id="circle4"></div>
         </section>
-        <h1 class="white-h1">section2</h1>
+        <h2 class="white-h1">about us</h2>
         <section id="section-2">
-            <div id="left"> <h1>main content</h1></div>
+            <div id="left"> <h2>main content</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ad delectus corrupti nesciunt molestias perferendis, repudiandae excepturi neque autem enim nobis dolorum alias blanditiis magnam earum! Voluptate est maiores nulla vel, eos ipsa, expedita minima illum eum atque sapiente beatae facere esse aperiam alias. Non provident laboriosam inventore laborum animi sapiente nulla quos corporis nisi itaque, blanditiis ipsam cum voluptatibus distinctio dolor cumque at labore temporibus illo alias et exercitationem aperiam. Ratione alias dolor a quam accusamus accusantium maiores molestias placeat laborum sed. Modi dolor, ipsam officia et aliquam aperiam itaque autem quas quibusdam cum voluptatum quod facere omnis praesentium. Totam vitae quod laboriosam porro ipsum sunt reiciendis nemo quam unde eaque distinctio, sit dignissimos id ea ducimus eos harum libero quibusdam repellendus soluta. Rerum explicabo accusantium tempora ullam quaerat incidunt autem esse reiciendis necessitatibus aliquam! At voluptates magni nam tenetur a quo ea, eligendi repellat dignissimos, voluptatibus sit repudiandae!</p></div>
             <div id="right">
-            <div class="article"><h1>article1</h1></div>
-            <div class="article"><h1>article2</h1></div>
-            <div class="article"><h1>article3</h1></div>
+            <div class="article" id="a1"><h1>project 1</h1></div>
+            <div class="article" id="a2"><h1>project 2</h1></div>
+            <div class="article" id="a3"><h1>project 3</h1></div>
 
             </div>
         </section>
-        <h1 class="white-h1">section3</h1>
+        <h2 class="white-h1">Technologias use</h2>
         <section id="section-3">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+            <div class="card">
+           <img src="../card1.jpeg"><h5>introduce html</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti inventore cupiditate animi quibusdam vitae.</p>
+           <a href="#" class="read">readmore</a>
+           </div>
+           
+            <div class="card">
+            <img src="../card2.jpg"><h5>Introduce CSS</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti inventore cupiditate animi quibusdam vitae.</p>
+            <a href="#" class="read">readmore</a>
+           </div>
+
+            <div class="card">
+            <img src="../card3.jpg"><h5>Introduce PYTHON</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti inventore cupiditate animi quibusdam vitae.</p>
+            <a href="#" class="read">readmore</a>
+           </div>
+
+            <div class="card">
+            <img src="../card4.jpg"><h5>Introduce PHP</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis deleniti inventore cupiditate animi quibusdam vitae.</p>
+            <a href="#" class="read">readmore</a>    
+          </div>
+
         </section>
 
         <footer>
-            <h1>footer</h1>
+            <h2 class="white-h1">Contact Us</h2>
         </footer>
 
 

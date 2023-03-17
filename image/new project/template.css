@@ -1,12 +1,17 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
  }
+ html 
+ {
+   scroll-behavior: smooth;
+ }
  
  #container
  {
    /* border: 2px solid red; */
    
  }
+ 
  header
  {
     height: 100px;
@@ -28,6 +33,11 @@
     text-align: center;
     padding-top: 75px;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
  }
   
  #section-3
@@ -46,9 +56,9 @@
     height: 200px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 50%;
-    margin: 0px 25px;
+    /* margin: 0px 25px; */
  }
  .card
  {
@@ -86,13 +96,112 @@ h1
  color:white;
  font-family: Arial, Helvetica, sans-serif;
  font-size: 40px;
- text-align: center;
+ text-align: left;
  text-transform: uppercase;
- padding-top: 20px;
+ padding-top: 10px;
 }
 .white-h1
 {
  color: black;
  text-transform: lowercase;
  padding: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+
 }
+#circle1
+{
+   background-image: url(../image1.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+#circle2
+{
+   background-image: url(../img2.png);
+   background-size: cover;
+   background-position: center;
+}
+#circle3
+{background-image: url(../img3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+#circle4
+{
+   background-image: url(../img4.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+#card1
+{
+
+   background-image: url(../card1.jpeg);
+   background-position: center;
+   background-size: cover;
+}
+.card img{
+   height: 111px;
+   width: 200px;
+}
+.read{
+display: block;
+margin-bottom: 10px;
+
+text-align: center;
+color: #fff;
+background-color:green;
+text-decoration: solid;
+padding: 2.5px;
+border-radius: 8px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#banner{
+   background-image: url(https://plus.unsplash.com/premium_photo-1661761031332-26de7264c430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+   background-position: center;
+   background-size: cover;
+    }
+#a1
+{
+   background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+
+   background-size: cover;
+   }    
+#a2
+{
+background-image: url(../p2.png);
+background-size: cover;
+}
+#a3
+{
+background-image: url(../p1.jpg);
+}
+#left
+{
+
+font-size: 15px;
+padding: 10px;
+text-align: justify;
+line-height: 34px;
+box-sizing: border-box;
+color:red;
+
+}
+
+.first
+{   
+margin: 0px 20px;
+color: #fff;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+text-justify: kashida;
+text-transform: uppercase;
+} 
+
+
+
+     
