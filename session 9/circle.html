@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+
+    <style>
+         *{padding: 0;margin: 0;box-sizing: border-box;}
+
+         .conteiner
+         {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(to left top,  blue, pink);
+
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+         }
+         .circle
+          {
+             width: 150px;
+             height: 150px;
+             border: 10px solid rgba(255, 255, 255, 0.476);
+             border-top: 10px solid white;
+             border-radius: 50%;
+             animation: loader 2s linear  infinite;
+          }
+          p
+          {
+            font-family: 'Fasthand', cursive;
+            font-size: 40px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            color: white;
+        }
+        @keyframes loader {
+            0%
+            {   
+                transform: rotate(0deg);
+            
+            }
+            100%
+            {
+                transform: rotate(360deg);
+            }
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="circle"></div>
+        <p>loading...</p>
+
+    </div>
+</body>
+</html>
