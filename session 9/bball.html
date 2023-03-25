@@ -1,27 +1,35 @@
-html, body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bball</title>
+    <style>
+       html, body {
   height: 100%;
-  margin: 0;
+  margin: ;
 }
 
 .ball {
   background: radial-gradient(farthest-corner at 60px 45px, #aaa 0%, black 50%);
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .ball-shadow {
-  background: radial-gradient(50% 50%, #000 0%, #fff 100%);
+  background: radial-gradient(50% 50%, rgb(0, 0, 0) 0%, #fff 100%);
   height: 50px;
-  width: 200px;
+  width: 50px;
 }
 
 .bouncy-castle {
   height: 100%;
   left: 50%;
-  position: absolute;device-widthddevice-widthdevice-widthevice-width
+  position: absolute;
 }
-device-width
+
 .bouncy-castle .ball-shadow {
   -webkit-animation-direction: alternate;
   -webkit-animation-duration: 1s;
@@ -31,7 +39,7 @@ device-width
   animation-duration: 1s;
   animation-name: grow;
   animation-iteration-count: infinite;
-  bottom: 0;
+  bottom: 50px;
   position: absolute;
   margin-left: -100px;
 }
@@ -51,8 +59,7 @@ device-width
 
 @-webkit-keyframes grow {
   from {
-    bottom: 0;            /* flex-direction: column; */
-
+    bottom: 0;
     margin-left: -100px;
     height: 50px;
     opacity: 1;
@@ -78,7 +85,7 @@ device-width
 
   to {
     bottom: 20px;
-    margin-left: 0;
+    margin-left: 20px;
     height: 10px;
     width: 15px;
   }
@@ -90,7 +97,7 @@ device-width
   }
 
   to {
-    bottom: 100%;
+    bottom: 50%;
   }
 }
 
@@ -100,16 +107,18 @@ device-width
   }
 
   to {
-    bottom: 100%;
+    bottom: 50%;
   }
 }
 
 
-
-
-
-
-<div class="bouncy-castle">
-  <div class="ball-shadow"></div>
-  <div class="ball"></div>
-</div>
+    </style>
+</head>
+<body>
+    <div class="bouncy-castle">
+        <div class="ball-shadow"></div>
+        <div class="ball"></div>
+      </div>
+      
+</body>
+</html>
