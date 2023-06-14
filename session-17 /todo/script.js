@@ -54,12 +54,22 @@ function  PerformActions (e){
     var parent = item.parentElement;
     console.log('parent')
     parent.classList.toggle('todo-done')
+    var audioTag = document.createElement('audio')
+    audioTag.src = "sound1.mp3"
+    document.body.appendChild(audioTag)
+    audioTag.play();
    }
+
+
    if(item.classList[0]=='delbtn')
    {
     // console.log("del button clicked")
     var parent = item.parentElement;
     parent.remove();
+    var audioTag1 = document.createElement('audio')
+    audioTag1.src = "sound2.mp3"
+    document.body.appendChild(audioTag1)
+    audioTag1.play();
    }
 
  }
